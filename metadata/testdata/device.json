@@ -1,22 +1,42 @@
 {
-  "id": "9307dc37-7f39-400b-9cd2-009087434a95",
-  "hostname": "spcqvzylz6-worker-2409003",
-  "iqn": "iqn.2018-06.net.packet:device.9307dc37",
+  "id": "a583c581-73a2-4101-b9f7-55c02ecf99bf",
+  "hostname": "ewr1-t1.small.x86-01",
+  "iqn": "iqn.2021-01.net.packet:device.a583c581",
   "operating_system": {
-    "slug": "coreos_stable",
-    "distro": "coreos",
-    "version": "stable",
+    "slug": "ubuntu_20_10",
+    "distro": "ubuntu",
+    "version": "20.10",
     "license_activation": {
       "state": "unlicensed"
     },
-    "image_tag": null
+    "image_tag": "151bba731256fdfefb25bccbcf16575b999c1e6c"
   },
-  "plan": "baremetal_1",
-  "class": "c1.small.x86",
+  "plan": "baremetal_0",
+  "reserved": false,
+  "class": "t1.small.x86",
   "facility": "ewr1",
+  "private_subnets": [
+    "10.0.0.0/8"
+  ],
   "tags": [],
   "ssh_keys": [
-    "ssh-rsa AAAAB3N1234567890 user@host"
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCza4Mu2mrfREsnXKbvkWXQTXRiazxmLUrv/ZbASGo9vfxLzVoMQEruJprqpdp9lyZow3B6F5Z7e49aAOp0dm2X+tFi0fY+wJ70cp5acdzL8GpF+VBSOn250fMDf8tApS/hU+bIMnbTznrW5yuvVqD0RdpJrTYtoh6UiG1odt5egj9dwndfzHOQSpa4UVZdmv/R1zdU527Wdky2r2QjmVOrjgbW4qCQwSU1nLUWponQBrdQpguQOevfhY2mq6a1YXrQsJWZq03Tk0ylEC1lR3PU1McAWCCl6df77e0++ajce5DTZ+fPfjyfqvGY0bF/cIINcFp6WAjLV+upy47xB8eB patrick.devivo@gmail.com",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwNTamZ52g4+bLsQtJcLSnjs9D4aqFlUv1WmlCBBoN9CA6xhvAP86psmRzHjJwyM77DVy2ojTt8DCLL+M3lLuw2q5awNEoSuZ9+GK+kuN5qPcwv06XV4ELQlkflbYRqd4vPjQ9PHjwKabDAE0b2lrb5nv8KZaBCdZ9DSu9y0ORxfHYhNJKiJEAseAEcwnK4VZTSnsTcCYTzxo4r7XcK6uTAHEVznlXRniaB2/DgNNzP2Db1JoLW29Jga7LVB4MhLJ81j/FNo/awU1cWS6YAp+HFZQSYLW0PmuRg1a+sScnvOpJ3Ja0P2fKuD3NM9zLSyCSwHkzMySxcdrX7LvZTNWl patrick.devivo@gmail.com",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDoGHAcDSTpVmI7KLtamamNFKxfEfyz8v4vbNHW7ncxzIq7yeCVVnzV2GK0XTkKPVKIybhVHYnp/9hJtgEPissOVpiL8XTGNPs8n5wtwAoGVCr0M+p1wvLeRT02w/6z1FoA2BDWxZctpOF3O4w6vyv1zjp0hD6esplSNAZDikfTyMnwmTT7QFC8M+zwQrKUTlfGOV/xd9TtbvK9WcEfyzMpj6a4u9Ex8u0FKBnQbjZmlb9JYZoSwdHAU9YJgAKLvcKxRsCwuFX7sxAHBIFZbnp+WVF1aZ1w9bbd3H8ug+zVoSknRWza/Jv+lOBaSgwC34n6TLDiWk7XcXyiYmUVGB5j",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDdzW7+4iZ4k0VYVUK9DuqGln8sEx3VvjM3q1LLZ1ICtMKDNJOgirsG0pTzwiGK+HW7w+1Qz5M2rwtY/64zB9N46CTzIiMPFWiXJoxIVsm50j1DUUalhzXa/+in+FbTczAdgnsYmcXfhKxV4VK47nS3CdB7V0D/POYVoZacn0jLol0pty8NEfl+pAwaH7715bRV3sHWtvHXBCpHhj8nlqUxcYdQJ1c0T/fvb6H6HU6yC0FqfpJJXnlSs3YLF3m9IaAfob+0y39FouilIopa4U7iX3sFWCTaDGNb5kjZ01y4BcJMOxeN48pyirm8R9H3+LhlJYunwyjQJxADLFPk6KIMIjcqdOiPwZmao3TuF45j8gF8z6+Z67R2bbVy/IVvdHPpUyppvHagFehTm0F3N7Ev4dHOXpMUYNNwOc7Lxxp06EsSh/8RneDnYnaAKDARfPwZ93IiFZLD230Jq/46bAfC9DUct9KIZAeaAMRymTNYehWMWeIq66Ewyl/2N0gWdcUSxuwkWnWEh1Q6TKwRGfNxJ3NwP/g3ZAgDyQ8Bna1ovn9SMTeNkm9nXhI9Oe5DAwYxNj+5UroTZqi/YayRdFEAsUFNdSaH8pr8R+h8iyCLrUPV5tXEXQpM4x1fXqtGIwTSPfEKfks7CDiJ58CEYx7eXqelwL7YE2am4fr4SmSHhQ== patrick.devivo@gmail.com",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbwiGIfcfTRbLZA8GpnTf95e8xCXW4hLQ9bUAZFeCYIVxawhAsTO9rlK0jjEaJ4OkC3TrnnEvi8OG4hO7KD/NeTVj72FfdpY8qceAgKoFNS2lk591WvkfR09RhWr+3lcbGsbDxoQrKvk0RLl7oALn9MU4NKuletDIpRQt606GoR2fxyaUwr0rUTWoWtuTsvEi3jsBFJHJC/vzk1VdC1JzTbsFXXdYRV5gnvnpAaIonzPd6+CiIUprpKH9oNYAcycIa3Z69bvyAOXnq7HYDTrkiUHJwrvOms6GUyoNk7yae6DnysX4N7Eogan2IKK3Kjwv6DPFODWo0d9OQca014ALv patrick@packet.com",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDM/unxJeFqxsTJcu6mhqsMHSaVlpu+Jj/P+44zrm6X/MAoHSX3X9oLgujEjjZ74yLfdfe0bJrbL2YgJzNaEkIQQ1VPMHB5EhTKUBGnzlPP0hHTnxsjAm9qDHgUPgvgFDQSAMzdJRJ0Cexo16Ph9VxCoLh3dxiE7s2gaM2FdVg7P8aSxKypsxAhYV3D0AwqzoOyT6WWhBoQ0xZ85XevOTnJCpImSemEGs6nVGEsWcEc1d1YvdxFjAK4SdsKUMkj4Dsy/leKsdi/DEAf356vbMT1UHsXXvy5TlHu/Pa6qF53v32Enz+nhKy7/8W2Yt2yWx8HnQcT2rug9lvCXagJO6oauqRTO77C4QZn13ZLMZgLT66S/tNh2EX0gi6vmIs5dth8uF+K6nxIyKJXbcA4ASg7F1OJrHKFZdTc5v1cPeq6PcbqGgc+8SrPYQmzvQqLoMBuxyos2hUkYOmw3aeWJj9nFa8Wu5WaN89mUeOqSkU4S5cgUzWUOmKey56B/j/s1sVys9rMhZapVs0wL4L9GBBM48N5jAQZnnpo85A8KsZq5ME22bTLqnxsDXqDYZvS7PSI6Dxi7eleOFE/NYYDkrgDLHTQri8ucDMVeVWHgoMY2bPXdn7KKy5jW5jKsf8EPARXg77A4gRYmgKrcwIKqJEUPqyxJBe0CPoGTqgXPRsUiQ== tomk@hp2",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDi0/efKqIhn60zwSV4G6XH1BnbTMYI/ne3UH+wb6vSZyQxzTAtJMsnMxxjwbI/GpqKP5wre3Py5dnJFFZzUcJt0THZdoagBgtC9DO1g70lU8Avxu8OSI0IxbfhMHp3Aa4W4PM/zS8ABfyf2Ufp0qPcDakT9a/zIIDEYJ3DHvPzY9iote3PYM3r4jgfGmGPpjtsxee8RWGR/jn1BPE7812TvWEZIMh54jOZ2Lp153XPl+P0P5EN3hfyvNYqcf/WC9VAl0wTo5VbJCfDxAtGD5mGH+FdVlPoHKns6BlZWhjVDVgJBQeL9QBs6adhsBbkXNZfMehd4r/I23rkQactX0xx used for sshing into ephemeral packet.net instances\n",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCLjmDzviJU9x6Szn9IWBlIwB1+a4ardbwfHL7v4UDJNq32V5/rwD2ki63yDMKPt3r0PRVx19/kllkpK2hY/0iUk7prUFhRXmo3M8LygibXU8PcVsWIrSTIzun4cUQgIqsX7deFlzsql7Il1kq2AkKKK8IGIzMfjwD1/Tp/Wke8DjRiotOsl+JHEDgd8EjXMaTo+5sPAr4q0kZmG3I4Pwm/rNKXpZzrqs4ApWY2qhGieQxSv/gsFxXaS9TGjnaghv1RacynlerjKZQfQEAUkypewUEsCCyazdF8BKvrpetHAOsM9LeRiLZzo2M2jycMHIU3b0UegwRbn+qe6YlS5CH tomk@hp2",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDV01h5pp6A3MszQKMtECeUvODencKM0LueNdTfz8UknbTkOZUbmtLDQaMyGrPVLZaYyZDdQN/rRUCHTxIysoYQkeWZUuYvq6h8jZ1LotTKAbRTTOP+RUKwvFuQP86yAgnK3Bu0nIUuMhBYgT7ISAUKYLc2plAnsX4j+OiTTAVR098qHXiGAn8zwHWo4/3ZfBj5/5EgYQN03QYN+4ZnKl2Z1w67IbGUmIfD5efYtlDW4pOigyTdUKmGoSy2r+iGshyFV1OMv6wIt8ZDHkVfRDHg4OdL2bPwcJsvy/Frrjow0Njs1ffxwRYQjuk6obSb3KXrWl7I8nrGnb4M0lIYE8oZ\n",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAt5gwVMhwcCrxyxpMEKwiS0xgit3PIIEgVXt6SQHc8eONq0mYJJ5TOBNTnySqXd9RtSv/Jbf5Aq9BzBGWeoZ6sZfKwh984Ip35StJtjXtyIOlY3skovndtupBIwlGXgX/WQzyLr+G/+Yu9/nhdxQi801PDZnDvKoeomM0rMD29nV+m0ud+GrtsAt6VFul2PxqpypZ1TYviyED6IKo7rgQsQDkE9QHcNdfT1FZWiJbfP7o8TIurQJcAXg+MtLoc8rKKcxFMeZ9FSydgtTC7nP1h558RtECGWiUgaBPI7TpBmcdMtbEfAiBoGT17GWnT8qmy2u5xnEKPD9Qft4w4fjfpw==",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXobDrHVtpKncavmapI6GXfGS28bfe+1MTVI81yc6WrBf+GGlIjcuTRDaab1t0VO7+z20gtRm+OckBz93z2XKeM0VJHpouwd9aPLrFjcystKR0dSqn94fCDT/ZXDVOB84crJDYJGcSGFzOGsgvQD5X+c4rXaCq/pa7/lcWpWLrGg6M5qPkbdFmhUMH0gSd9FQGUUD/mUe1r8BDzed+8zPrR/RpcrUjMoscatazhQcwL+c156j/yox6CZM3uTjssuLhmZGyTcqEAnQYgMgIFOyQo9FRFKKupNRohZx8aU+f8+rbTe0hQvIQkqWIVKp/OXFRV/K9ThSBN9rxRGkIN1iV tomk@hp2",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDUKqLgFy6QAcoQf4B7ILawOKioBtMkE0yJPK2XoFgBnemLoBZ7Ipwu3S5xTRxytizLIN9ifBg3yAy4xiEy9lD4NUxbFZtqF6lxSD3teLka2hOhnsweCqge5L6OCqMOtUq7gX0wEN9U99G5GtfGOHlker2q5n2hxKH7NUrxBLEhYw== ",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/lW2lPNSrm7QK0pQvBhFU+779r3rcJo/d3BBqXVQsm4MpcUxoGLYVhyJXDSEIv8gEzeA4priXs3tyc9XiW+3Bht+DIbYAv0pzLgXO+8Mvsj7Lwp7u/rvyKWtJdPZG/Fp+mcxnoNX/BHoBCy8Ig/lP5uYlMyvLx+78Ed3iyohNNNO4GPGAVV04fjLc6lXFl6FYqIYXN3DcVxmQtQSsae6zv8qrvNAt3GJ8NG++V4JDeiRu52hZIu0aSyGI36mrUz4DO4LRstUmeG3JQ5RiKdPzd6UEV/zXiETP9Xc4iqlfLVK239aoC5bIy1XRilLfRZNz6WRHVmylcfR5k2e9oQL3\n",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCtnJVglZs3MVUfJ9sLgtQKpMLMwZluDe5g3dBgdxvypQJf8C10i2tee/JOsIDgZ6gNKLsHZn/mi1EcRsZ2fbQ1EjVx9qerVJOVacxgY9DG1FAZr2mNO8olptzV7JXp5OYwo110aHXLuzDladLOAxIJ32YkCou5gdDA286PFSjBIm7EY2Ssrf16pTy0sSSxX6sSztW1Hp0Xm/AfXhv4cbtse7dxXv8xzqhlWWIn7T5gZ7TZg+P93JwoFhseBAeiAmfCJdIEHABHvBIDVdQQQ1a2uJsbNSu8A6T72HM74vkZUGYrEuq4eSFkEhPNaD9fFfth84AgfRwRC3S1U7srcnEx\n",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDORbeR2/YUXoKTvLFjk0PJecldi0OtVkjMYPxiHkqX2r1DS8idX61Ku1E3pUJwlNfQ/BlFWIiONLbw3Kj/Vxk/6HcHhqbD9NooH1zWYrXX+Rs/BnAYsW3+hA80L4X+993NcFMVe2aVhhYmOP3Vdzj2iolmoy9m4dK9o5j0TIK74Q== ",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCr9i9ZKtQ+B2IvEJjjKA0uiSEGE/q+TzBKO5YO6cvf1oLVvE46sJ/7fVSTa4Xy6RKIA99onkEuZmVwE/U7LsyrLAWQB0Ux0U3laKlFvQSY2Lem2R5Sj3qxIfzOVldZxpD5ewyjV/PamwhyD1DeIJGVjJoZBbLf2TeSjSa+pihidmYjHsa/XjoaC9mOmyRc7TtYfBQwSR2UQxR8ChSnROrSDM14wsQFVfo7eicN/4qC7qo9UVFmogBxl64vt/JAEpafJGBqbzxNDB9XJOzHYbpMLBA8DvWycLvVD0tBspE3UKQiLb3S9wasC6QbgwRkKo4jszoxPIx6wG4LoeSFS52Z tomk@hp2",
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQC6kr/LSGsHRB3W3zm6rMrCl2Qcuz0MpgjSAZExzaeVE1vet3fYN8O6USMDIwGKplI1sDewtWN4m5HEgjhMIIbsuw/jECyHXyTYUDkEYSn/wwZoDM/6O/uW+Ibz8aFUNn6OTTP9tzKKXWiWILn+ue57dW8GCa1NOAVH0K4Iqb4K3w== "
   ],
   "storage": {
     "disks": [
@@ -27,7 +47,7 @@
           {
             "label": "BIOS",
             "number": 1,
-            "size": "512M"
+            "size": 4096
           },
           {
             "label": "SWAP",
@@ -43,20 +63,6 @@
       }
     ],
     "filesystems": [
-      {
-        "mount": {
-          "device": "/dev/sda1",
-          "format": "vfat",
-          "point": "/boot/efi",
-          "create": {
-            "options": [
-              "32",
-              "-n",
-              "EFI"
-            ]
-          }
-        }
-      },
       {
         "mount": {
           "device": "/dev/sda3",
@@ -87,95 +93,140 @@
   },
   "network": {
     "bonding": {
-      "mode": 4
+      "mode": 5,
+      "link_aggregation": "bonded",
+      "mac": "0c:c4:7a:54:07:98"
     },
     "interfaces": [
       {
-        "name": "enp1s0f0",
-        "mac": "0c:c4:7a:15:dc:06",
+        "name": "eth0",
+        "mac": "0c:c4:7a:54:07:98",
         "bond": "bond0"
       },
       {
-        "name": "enp1s0f1",
-        "mac": "0c:c4:7a:15:dc:07",
+        "name": "eth1",
+        "mac": "0c:c4:7a:54:07:99",
         "bond": "bond0"
       }
     ],
     "addresses": [
       {
-        "id": "4e4781a1-0138-4138-8706-a33420d7073f",
+        "id": "be6077a7-b51c-447f-8663-2ca9465b0506",
         "address_family": 4,
         "netmask": "255.255.255.254",
-        "created_at": "2018-06-28T18:58:19Z",
+        "created_at": "2021-01-07T10:35:19Z",
         "public": true,
         "cidr": 31,
         "management": true,
         "enabled": true,
-        "network": "147.75.197.68",
-        "address": "147.75.197.69",
-        "gateway": "147.75.197.68",
+        "network": "147.75.194.126",
+        "address": "147.75.194.127",
+        "gateway": "147.75.194.126",
         "parent_block": {
-          "network": "147.75.197.68",
+          "network": "147.75.194.126",
           "netmask": "255.255.255.254",
           "cidr": 31,
-          "href": "/ips/b7425760-f4fd-4db2-8965-6044e565d705"
+          "href": "/ips/40cb3d25-4c33-40f4-aa28-a88afa034474"
         }
       },
       {
-        "id": "6d32ce83-50a9-4312-99c0-2116353ee647",
+        "id": "2ead8994-16c2-45f5-97d3-bdb28037736e",
         "address_family": 6,
         "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe",
-        "created_at": "2018-06-28T18:58:18Z",
+        "created_at": "2021-01-07T10:35:18Z",
         "public": true,
         "cidr": 127,
         "management": true,
         "enabled": true,
-        "network": "2604:1380:0:7e00::6",
-        "address": "2604:1380:0:7e00::7",
-        "gateway": "2604:1380:0:7e00::6",
+        "network": "2604:1380:0:100::",
+        "address": "2604:1380:0:100::1",
+        "gateway": "2604:1380:0:100::",
         "parent_block": {
-          "network": "2604:1380:0000:7e00:0000:0000:0000:0000",
+          "network": "2604:1380:0000:0100:0000:0000:0000:0000",
           "netmask": "ffff:ffff:ffff:ff00:0000:0000:0000:0000",
           "cidr": 56,
-          "href": "/ips/5d7254c1-fca7-4e01-8417-f7d2cf00f888"
+          "href": "/ips/1bf6105d-c954-42b4-a091-17208526f51a"
         }
       },
       {
-        "id": "6357b697-92ac-4ec5-b074-b1a56dd94678",
+        "id": "57f8a12c-0618-49e6-8192-717cbe623767",
         "address_family": 4,
         "netmask": "255.255.255.254",
-        "created_at": "2018-06-28T18:58:18Z",
+        "created_at": "2021-01-07T10:35:18Z",
         "public": false,
         "cidr": 31,
         "management": true,
         "enabled": true,
-        "network": "10.99.73.134",
-        "address": "10.99.73.135",
-        "gateway": "10.99.73.134",
+        "network": "10.99.36.0",
+        "address": "10.99.36.1",
+        "gateway": "10.99.36.0",
         "parent_block": {
-          "network": "10.99.73.128",
+          "network": "10.99.36.0",
           "netmask": "255.255.255.128",
           "cidr": 25,
-          "href": "/ips/8f55d3b9-2d52-4361-9c02-1678e842432c"
+          "href": "/ips/116fdbf6-1963-43df-9e10-9138fa2fa131"
         }
       }
     ]
   },
   "customdata": {},
+  "specs": {
+    "cpus": [
+      {
+        "count": 1,
+        "type": "Intel Atom C2550 @ 2.4Ghz"
+      }
+    ],
+    "memory": {
+      "total": "8GB"
+    },
+    "drives": [
+      {
+        "count": 1,
+        "size": "80GB",
+        "type": "SSD"
+      }
+    ],
+    "nics": [
+      {
+        "count": 2,
+        "type": "1Gbps"
+      }
+    ],
+    "features": {
+      "raid": false,
+      "txt": true,
+      "uefi": false
+    }
+  },
+  "switch_short_id": "6ce8785a",
   "volumes": [
     {
       "ips": [
-        "10.144.35.132",
-        "10.144.51.11"
+        "10.144.32.122",
+        "10.144.48.122"
       ],
-      "name": "volume-b7f8e13c",
+      "name": "volume-df0579d9",
       "capacity": {
-        "size": "10",
+        "size": "100",
         "unit": "gb"
       },
-      "iqn": "iqn.2013-05.com.daterainc:tc:01:sn:60448a8a63a20a82"
+      "iqn": "iqn.2013-05.com.daterainc:tc:01:sn:e0651c43a0f7dd90"
+    },
+    {
+      "ips": [
+        "10.144.34.44",
+        "10.144.50.44"
+      ],
+      "name": "volume-f61e31b8",
+      "capacity": {
+        "size": "100",
+        "unit": "gb"
+      },
+      "iqn": "iqn.2013-05.com.daterainc:tc:01:sn:32ebcb14244a5abc"
     }
   ],
   "api_url": "https://metadata.packet.net",
-  "phone_home_url": "http://147.75.195.231/phone-home"
+  "phone_home_url": "http://tinkerbell.ewr1.packet.net/phone-home",
+  "user_state_url": "http://tinkerbell.ewr1.packet.net/events"
 }

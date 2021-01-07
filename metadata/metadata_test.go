@@ -34,17 +34,17 @@ func Test_Deserialization(t *testing.T) {
 	assert.Nil(t, err)
 	assert.NotNil(t, device)
 
-	assert.Equal(t, "9307dc37-7f39-400b-9cd2-009087434a95", device.ID)
-	assert.Equal(t, "spcqvzylz6-worker-2409003", device.Hostname)
+	assert.Equal(t, "a583c581-73a2-4101-b9f7-55c02ecf99bf", device.ID)
+	assert.Equal(t, "ewr1-t1.small.x86-01", device.Hostname)
 
 	volumes := device.Volumes
-	assert.Equal(t, 1, len(volumes))
-	assert.Equal(t, "volume-b7f8e13c", volumes[0].Name)
-	assert.Equal(t, "iqn.2013-05.com.daterainc:tc:01:sn:60448a8a63a20a82", volumes[0].IQN)
+	assert.Equal(t, 2, len(volumes))
+	assert.Equal(t, "volume-df0579d9", volumes[0].Name)
+	assert.Equal(t, "iqn.2013-05.com.daterainc:tc:01:sn:e0651c43a0f7dd90", volumes[0].IQN)
 	assert.Equal(t, 2, len(volumes[0].IPs))
-	assert.Equal(t, "10.144.35.132", volumes[0].IPs[0].String())
-	assert.Equal(t, "10.144.51.11", volumes[0].IPs[1].String())
-	assert.Equal(t, 10, volumes[0].Capacity.Size)
+	assert.Equal(t, "10.144.32.122", volumes[0].IPs[0].String())
+	assert.Equal(t, "10.144.48.122", volumes[0].IPs[1].String())
+	assert.Equal(t, 100, volumes[0].Capacity.Size)
 	assert.Equal(t, "gb", volumes[0].Capacity.Unit)
 
 }
